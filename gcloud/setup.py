@@ -1,7 +1,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-REQUIRED_PACKAGES = ['torch', 'pytorch-ignite', 'transformers==2.5.1', 'tensorboardX==1.8', 'tensorflow']
+REQUIRED_PACKAGES = ['torch', 'pytorch-ignite', 'transformers==2.5.1', 'tensorboardX==1.8', 'tensorflow', 'spacy']
 
 setup(
     name='trainer',
