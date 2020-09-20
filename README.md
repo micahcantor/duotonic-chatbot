@@ -1,3 +1,11 @@
+# Duotonic Chatbot
+
+This is an implementation of the Conversational AI developed by Hugging Face, targeted for future use with [duotonic](https://github.com/micahcantor/duotonic).
+
+The original repo's command line `interact.py` has been converted to a simple Flask API available in `server.py` (not yet configured for production). The API returns the model's response to an input sent as a POST request.
+
+Hugging Face's original README for the repo is found below.
+
 # 🦄 Building a State-of-the-Art Conversational AI with Transfer Learning
 
 The present repo contains the code accompanying the blog post [🦄 How to build a State-of-the-Art Conversational AI with Transfer Learning](https://medium.com/@Thomwolf/how-to-build-a-state-of-the-art-conversational-ai-with-transfer-learning-2d818ac26313).
